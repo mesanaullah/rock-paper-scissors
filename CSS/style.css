@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+
+.heading {
+    /* margin-top: 50px; */
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    ;
+    mix-blend-mode: color-dodge;
+    /* aspect-ratio: 3/2;
+    object-fit: contain; */
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+
+.rps-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.result {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#results {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.clr-btn {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 20px;
+    background-color: rgb(7, 98, 225);
+    color: #fff;
+}
+
+
+.scr {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scrbtn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0 20px 0;
+}
